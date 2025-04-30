@@ -1,0 +1,65 @@
+#footer{
+    margin-top: 20vh;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    background-color: #2D2D2D;
+    border: transparent;
+    border-radius: 20px 20px 0px 0px ;
+    padding: 40px 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#firstColumn{
+    height: 100%;
+    width: 20%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 40px;
+    /* font-size: 20px; */
+}
+
+#firstColumn .email{
+    font-size: 22px;
+}
+
+#firstColumn .extraInfo{
+    font-size: 22px;
+}
+
+
+#secondColumn{
+    height: 100%;
+    width: 20%;
+    /* background-color: rgb(159, 255, 127); */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 20px;
+}
+
+#secondColumn p{
+    font-size: 22px;
+
+}
+
+
+#thirdColumn{
+    height: 100%;
+    width: 20%;
+    /* background-color: rgb(159, 255, 127); */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 20px;
+}
+
+#thirdColumn p{
+    font-size: 22px;
+}

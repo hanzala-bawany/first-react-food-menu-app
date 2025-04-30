@@ -1,0 +1,59 @@
+.foodItem{
+    height: 240px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    font-size: 20px;
+    box-shadow: 9px 17px 44px 7px #4F2774;
+    /* box-shadow: 9px 17px 44px 7px #fbca2b; */
+    transition: transform 0.2s ease-in-out;
+}
+
+.foodItem:hover{
+    transform: scale(1.1);
+    cursor: pointer;   
+}
+
+.foodItem img{
+    height: 100%;
+    width: 43%;
+    border-radius: 10px;
+}
+
+.foodItem .itemDetail{
+    /* background-color: aliceblue; */
+    height: 100%;
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.foodItem .nameAndPrice{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 8px;
+    font-weight: 600;
+}
+
+.itemDetail .cutPrice{
+ text-decoration: line-through;
+ color:  red;
+ font-size: 16px;
+}
+
+
+.itemDetail button{
+    width: 45%;
+    /* height: 15%; */
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: #fbca2b;
+    color: #4F2774;
+    font-weight: 700;
+    font-size: 15px;
+    padding:8px 8px ;
+}
+

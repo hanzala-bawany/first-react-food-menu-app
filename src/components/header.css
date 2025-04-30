@@ -1,0 +1,57 @@
+#header {
+    height: 13vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: aliceblue;
+    position: fixed;
+    top: 0px;
+
+}
+#header img{
+    width: 80px;
+}
+
+#header img:hover{
+    transform: scale(1.1);
+    cursor: pointer;   
+}
+
+#header button{
+    width: 10%;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    height: 50px;
+    font-size: 25px;
+    background-color: #fbca2b;
+    color: #4F2774;
+    font-weight: 700;
+    transition: transform 0.3s;
+
+}
+
+#header button:hover{
+    transform: scale(1.1);
+    cursor: pointer;   
+}
+
+
+
+
+
+
+/*h1{
+    font-size: 45px;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}  */
