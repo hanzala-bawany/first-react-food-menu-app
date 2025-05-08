@@ -1,5 +1,5 @@
 #foodItems{
-    width: 100vw;
+    width: 100%;
     padding: 10px ;
     display: flex;
     /* justify-content: space-around; */
@@ -7,4 +7,34 @@
     flex-wrap: wrap;
     gap: 60px;
   }
+
+  #categories{
+    width: 100%;
+    margin: 10vh 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 6%;
+    row-gap: 20px;
+}
+
+#categories button{
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    font-size: 20px;
+    /* background-color:#fbca2b ; */
+    color: #4F2774;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    /* text-decoration: underline 4px #fbca2b;  */
+    transition: transform 0.3s;;
+   
+}
+#categories button:hover{
+    transform: scale(115%);
+    cursor: pointer;
+}
   
